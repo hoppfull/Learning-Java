@@ -1,0 +1,60 @@
+Game engine check list
+
+Window creation - [Solved]
+ Create a window of specified dimensions
+
+User Input - [Solved]
+ Take input from keyboard and mouse
+ Deal with events stored in buffer
+
+Timer - [Solved]
+ Mechanism to measure time from one point to another
+
+Game loop - [Solved]
+ Mechanism to allow different aspects be updated at different rates
+
+Linear Algebra - [Solved]
+ Operations on 2-vectors [Skipping]
+ Operations on 3-vectors
+ Operations on 4x4 Matrices 
+ Operations on Quaternions [Skipping]
+
+Transformation operations [Solved]
+ Probably best to study this from scratch
+ Get movement matrix
+ Get rotation matrix (right hand rule around vector)
+ Get scaling matrix
+
+Render utilities - [Solved]
+ Clear Screen, Background Color...
+ Initialize OpenGL settings
+ Print GL version on system
+
+Vertex class - [Solved]
+ More to come [Skipping]
+
+Mesh utilities - [Unsolved]
+ Load .obj? [Unsolved]
+ Pointer to VBO – Vertex Buffer Object [Solved]
+ Pointer to IBO – Index Buffer Object, to reuse vertices [Unsolved]
+ Convert mesh to FloatBuffer [Solved]
+ Draw to screen!? [Solved]
+
+Shaders – [Solved]
+ Load shader from harddrive
+ Get pointer adress for main shader program
+ Get pointer to where to send compiled shaders
+ Send vertex shader to pointer adress
+ Send fragment shader to pointer adress
+ Send geometry shader to pointer adress
+ Compile shaders
+ Attach compiled shaders to main shader program
+ Compile to a working shader program
+ bind function to select our program
+
+GLSL – [Unsolved]
+ This is going to be problematic...
+ Basicly we create the shaders which we code in GLSL
+ Mechanism to send information from main program to shader on video card; uniform variables
+
+More needs to be done but these things needs to be solved first!
