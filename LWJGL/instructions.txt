@@ -1,0 +1,15 @@
+These examples requires two sub folders, "native-win"
+and "jars" with following files in order to work:
+
+native-win:
+    lwjgl.dll
+    lwjgl64.dll
+    jinput-dx8.dll
+    jinput-dx8_64.dll
+    jinput-raw.dll
+    jinput-raw_64.dll
+    OpenAL32.dll
+    OpenAL64.dll
+
+jars:
+    lwjgl.jar
